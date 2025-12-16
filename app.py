@@ -1,9 +1,6 @@
 
-
-
 import joblib
 import streamlit as st
-
 import numpy as np
 model = joblib.load("housing_price_model.pkl")
 st.title("Housing  Price Prediction ")
